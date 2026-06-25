@@ -1,0 +1,24 @@
+# Commands to push your project to GitHub
+
+# Step 1: Initialize git repository (if not already done)
+git init
+
+# Step 2: Add all files to staging
+git add .
+
+# Step 3: Create initial commit
+git commit -m "Initial commit: StockNest CRUD app with responsive UI and Poppins font"
+
+# Step 4: Add remote repository
+git remote add origin https://github.com/syed-murtuzaali/crud-app.git
+
+# Step 5: Push to GitHub (main branch)
+git branch -M main
+git push -u origin main
+
+# If you get an error about existing remote, remove it first:
+# git remote remove origin
+# Then run step 4 again
+
+# To check remote URL:
+# git remote -v
